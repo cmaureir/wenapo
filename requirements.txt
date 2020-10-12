@@ -1,0 +1,3 @@
+pyspellchecker
+polib
+docutils

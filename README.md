@@ -4,10 +4,34 @@
 
 Have you tried to install and **use** `powrap` and `pospell` on Windows?
 
-<img src="https://media1.giphy.com/media/13d2jHlSlxklVe/giphy.gif" width=150px />
+<img src="https://media1.giphy.com/media/13d2jHlSlxklVe/giphy.gif" width="300px" />
 
 What usually starts as a simple `pip install powrap pospell` can end up in
 a complicated process.
+
+### Usage
+
+To emulate `pospell` one can run `wenapo` with the `-p` and `-l` options:
+`wenapo -p dict.txt -l es`.
+Also, since the project uses [pyspellchecker](https://github.com/barrust/pyspellchecker)
+we included an option `-s` to show the closes word as a suggestion,
+since the process goes through the full original dictionary, it's a bit slow.
+
+```
+usage: wenapo [-h] [-p DICTIONARY] [-l LANGUAGE] [-s] po_file [po_file ...]
+
+positional arguments:
+  po_file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p DICTIONARY, --personal-dict DICTIONARY
+                        Load a personal dictionary (default: dict.txt)
+  -l LANGUAGE, --language LANGUAGE
+                        Base language to use (default: es)
+  -s, --suggestion      Suggest the closest word (slow) (default: False)
+```
+
 
 ### Motivation
 
