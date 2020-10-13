@@ -1,4 +1,4 @@
-# wenapo
+<img src="img/wenapo.png" width="400px" />
 
 **W**rap **E**xtract **N**ormalize **A**nalyze **PO** files.
 

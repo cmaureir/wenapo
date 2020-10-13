@@ -12,7 +12,7 @@ import polib
 from spellchecker import SpellChecker
 
 
-def is_number(s: str) -> str:
+def is_number(s: str) -> bool:
     try:
         _ = float(s)
         return True
@@ -20,7 +20,7 @@ def is_number(s: str) -> str:
         return False
 
 
-def valid_word(s: str) -> str:
+def valid_word(s: str) -> bool:
     if is_number(s):
         return False
     return True
@@ -48,7 +48,6 @@ def parse_rst(text: str) -> docutils.nodes.document:
     document = docutils.utils.new_document("<rst-doc>", settings=settings)
     parser.parse(text, document)
     return document
-
 
 def clean_rst_parsed(s: str) -> str:
     doc = parse_rst(s)
