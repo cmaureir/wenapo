@@ -2,12 +2,7 @@
 
 **W**rap **E**xtract **N**ormalize **A**nalyze **PO** files.
 
-Have you tried to install and **use** `powrap` and `pospell` on Windows?
-
-<img src="https://media1.giphy.com/media/13d2jHlSlxklVe/giphy.gif" width="300px" />
-
-What usually starts as a simple `pip install powrap pospell` can end up in
-a complicated process.
+----
 
 ### Usage
 
@@ -34,6 +29,13 @@ optional arguments:
 
 
 ### Motivation
+
+Have you tried to install and **use** `powrap` and `pospell` on Windows?
+
+<img src="https://media1.giphy.com/media/13d2jHlSlxklVe/giphy.gif" width="300px" />
+
+What usually starts as a simple `pip install powrap pospell` can end up in
+a complicated process.
 
 While translating the Python official documention to Spanish, we often had the
 problem that Windows users were unable to locally run tools like `powrap` or
