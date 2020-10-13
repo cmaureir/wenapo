@@ -2,7 +2,16 @@
 
 **W**rap **E**xtract **N**ormalize **A**nalyze **PO** files.
 
+A tool to **wrap and check the spelling** of `.po` files without the need to install any additional software, dictionary, or any strange configuration depending on your OS.
+
 ----
+
+## Install
+
+```
+# On your favorite virtual environment
+pip install wenapo
+```
 
 ### Usage
 
